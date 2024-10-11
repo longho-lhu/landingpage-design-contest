@@ -112,7 +112,7 @@ function App() {
                   <a onclick="downloadZip()">Xem thể lệ cuộc thi</a>
                 </button>
                 <button className="vam_button1" id="intro_link">
-                  <a target="_blank" href="https://ubtechvietnam.edu.vn/">
+                  <a target="_blank" rel="noreferrer" href="https://ubtechvietnam.edu.vn/">
                     Trang web chính thức
                   </a>
                 </button>
@@ -174,7 +174,7 @@ function App() {
                   </button>
                   <button class="vam_button1" id="intro_link"
                       style="margin-bottom: 5px;background: transparent; border: none;">
-                      <a target="_blank" href=""
+                      <a target="_blank" rel="noreferrer" href=""
                           style="text-decoration: none; color: white; border: 2px solid white; border-radius: 12px; font-size: 18px; padding: 8px 20px; display: inline-block; text-align: center;">Trang
                           web chính thức</a>
                   </button>
@@ -423,6 +423,7 @@ function App() {
                   <a
                     className="dkthamgia"
                     target="_blank"
+                    rel="noreferrer"
                     index={1}
                     href="https://docs.google.com/forms/d/e/1FAIpQLScKDUHNVTjSmaQSBIOz3kQvYJGORUEkSa7et0cKCkNQfjGNRw/viewform"
                   >
@@ -467,7 +468,7 @@ function App() {
                   <a
                     className="dkthamgia"
                     index={2}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSccJGr9aCpqDWEC708P4iAuBBygx2vociu4fIbZ5dQNDpForA/viewform"
                   >
                     Đăng ký ngay
@@ -511,7 +512,7 @@ function App() {
                   <a
                     className="dkthamgia"
                     index={3}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeYM_lcd7XqaQuw7B3uSd4J00X8FD6Su_t3bfa-XCbgoBJ_nA/viewform"
                   >
                     Đăng ký ngay
@@ -555,7 +556,7 @@ function App() {
                   <a
                     className="dkthamgia"
                     index={4}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfY6wZCTlaDCpX0vbRdK8zGEsr4TOr0iGqOXP7MYvPm-WAGJg/viewform"
                   >
                     Đăng ký ngay
@@ -1210,7 +1211,7 @@ function App() {
           >
             <a
               href="http://www.ioit.ac.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1220,7 +1221,7 @@ function App() {
             </a>
             <a
               href="http://vnies.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1253,7 +1254,7 @@ function App() {
           >
             <a
               href="https://ippgroup.vn/vi/kinh-doanh/ipp-technology"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
               style={{ justifyContent: "start", margin: "0px 25px" }}
             >
@@ -1264,7 +1265,7 @@ function App() {
             </a>
             <a
               href="https://www.facebook.com/aicenter.itp/?locale=vi_VN"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1274,7 +1275,7 @@ function App() {
             </a>
             <a
               href="https://ubtechvietnam.com/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1284,7 +1285,7 @@ function App() {
             </a>
             <a
               href="https://www.vlu.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1294,7 +1295,7 @@ function App() {
             </a>
             <a
               href="https://airobotic.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1304,7 +1305,7 @@ function App() {
             </a>
             <a
               href="https://lhu.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1314,7 +1315,7 @@ function App() {
             </a>
             <a
               href="https://dlu.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1324,7 +1325,7 @@ function App() {
             </a>
             <a
               href="https://www.hcmue.edu.vn/vi/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1357,7 +1358,7 @@ function App() {
           >
             <a
               href="https://www.dafc.com.vn/vi/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1367,7 +1368,7 @@ function App() {
             </a>
             <a
               href="https://ipptravelretail.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1377,7 +1378,7 @@ function App() {
             </a>
             <a
               href="https://burgerking.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1387,7 +1388,7 @@ function App() {
             </a>
             <a
               href="https://dominos.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1397,7 +1398,7 @@ function App() {
             </a>
             <a
               href="https://popeyes.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1407,7 +1408,7 @@ function App() {
             </a>
             <a
               href="https://vsss.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1417,7 +1418,7 @@ function App() {
             </a>
             <a
               href="https://ispschools.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1427,7 +1428,7 @@ function App() {
             </a>
             <a
               href="https://kapla.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1437,7 +1438,7 @@ function App() {
             </a>
             <a
               href="https://ngothoinhiem.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1447,7 +1448,7 @@ function App() {
             </a>
             <a
               href="https://kidkul.com/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1457,7 +1458,7 @@ function App() {
             </a>
             <a
               href="https://eduten.com/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1467,7 +1468,7 @@ function App() {
             </a>
             <a
               href="https://steam.goldena.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1500,7 +1501,7 @@ function App() {
           >
             <a
               href="https://is.uel.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1510,7 +1511,7 @@ function App() {
             </a>
             <a
               href="https://doanthanhnien.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1520,7 +1521,7 @@ function App() {
             </a>
             <a
               href="https://lhu.edu.vn/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="donvi_load-wrap"
             >
               <img
@@ -1795,7 +1796,7 @@ function App() {
                   alignItems: "center",
                   justifyContent: "center"
                 }}
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://www.facebook.com/ubtechvietnam/"
               >
                 <i
@@ -1819,7 +1820,7 @@ function App() {
                   alignItems: "center",
                   justifyContent: "center"
                 }}
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://www.youtube.com/@ubtechvietnam"
               >
                 <i
@@ -1843,7 +1844,7 @@ function App() {
                   alignItems: "center",
                   justifyContent: "center"
                 }}
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://www.linkedin.com/company/ubtechvietnam/"
               >
                 <i
@@ -1877,7 +1878,7 @@ function App() {
                 style={{ fontSize: "12px !important" }}
                 className="bi bi-facebook"
               />
-              <a href="https://www.facebook.com/ubtechvietnam/" target="_blank">
+              <a href="https://www.facebook.com/ubtechvietnam/" target="_blank" rel="noreferrer">
                 Fanpage: UBTECH AI &amp; Robotics Việt Nam.
               </a>
             </p>
