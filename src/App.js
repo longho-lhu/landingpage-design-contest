@@ -13,7 +13,7 @@ function App() {
               style={{ height: 60, width: "auto" }}
             />
           </div>
-          <ul className="header1412a1-list" style={{ color: "white" }}>
+          <ul className="header1412a1-list">
             <li className="home">
               <a href="#intro">Giới thiệu</a>
             </li>
