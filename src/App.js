@@ -13,25 +13,25 @@ function App() {
               style={{ height: 60, width: "auto" }}
             />
           </div>
-          <ul className="header1412a1-list">
-            <li className="home">
-              <a href="#intro">Giới thiệu</a>
-            </li>
-            <li className="contact">
-              <a href="#prize">Giải thưởng</a>
-            </li>
-            <li className="create">
-              <a href="#timeline">Mốc thời gian</a>
-            </li>
-            <li className="home">
-              <a href="#question">Q&amp;A</a>
-            </li>
-            <li className="contact">
-              <a className="s" href="#dieukien">
-                Đăng ký
-              </a>
-            </li>
-          </ul>
+          <ul className="header1412a1-list" style={{ color: 'white' }}>
+        <li className="home">
+          <a href="#intro">Giới thiệu</a>
+        </li>
+        <li className="contact">
+          <a href="#prize">Giải thưởng</a>
+        </li>
+        <li className="create">
+          <a href="#timeline">Mốc thời gian</a>
+        </li>
+        <li className="home">
+          <a href="#question">Q&amp;A</a>
+        </li>
+        <li className="contact">
+          <a className="s" href="#dieukien">
+            Đăng ký
+          </a>
+        </li>
+      </ul>
         </div>
       </section>
       <section id="intro" style={{ top: 0 }}>
