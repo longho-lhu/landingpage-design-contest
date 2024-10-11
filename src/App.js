@@ -102,10 +102,10 @@ function App() {
             >
               <div>
               <button  className="vam_button1" id="intro_link">
-                <a href="#dieukien">Tham gia ngay</a>
+                <a href="#dieukien" style={{textDecoration: 'none', color: 'white'}}>Tham gia ngay</a>
               </button>
               </div>
-              <div style={{ flexDirection: "column", display: "flex" }}>
+              <div style={{ flexDirection: "column", display: "flex"}}>
                 <button
                   style={{ justifyContent: "center", display: "flex" }}
                   className="vam_button1"
@@ -114,12 +114,13 @@ function App() {
                   <a onclick="downloadZip()">Xem thể lệ cuộc thi</a>
                 </button>
                 <button className="vam_button1" id="intro_link">
-                  <a target="_blank" rel="noreferrer" href="https://ubtechvietnam.edu.vn/">
+                  <a target="_blank" rel="noreferrer" href="https://ubtechvietnam.edu.vn/" style={{textDecoration: 'none', color: 'white'}}>
                     Trang web chính thức
                   </a>
                 </button>
               </div>
               <button className="vam_button1" id="intro_videosd">
+              <i class="bi bi-play-circle"></i>
                 <a> Video chủ đề</a>
               </button>
             </div>
