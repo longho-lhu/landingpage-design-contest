@@ -100,9 +100,11 @@ function App() {
               id="intro_anim"
               style={{ animation: "introbanner .8s 1.5s linear forwards" }}
             >
-              <button className="vam_button1" id="intro_link">
+              <div>
+              <button  className="vam_button1" id="intro_link">
                 <a href="#dieukien">Tham gia ngay</a>
               </button>
+              </div>
               <div style={{ flexDirection: "column", display: "flex" }}>
                 <button
                   style={{ justifyContent: "center", display: "flex" }}
@@ -118,7 +120,6 @@ function App() {
                 </button>
               </div>
               <button className="vam_button1" id="intro_videosd">
-                <i className="bi bi-play-circle-fill" />
                 <a> Video chủ đề</a>
               </button>
             </div>
