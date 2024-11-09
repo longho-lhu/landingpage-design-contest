@@ -6,6 +6,7 @@ import DieuKien from './Component/DieuKien.js';
 import ThongDiep from './Component/ThongDiep.js';
 import ThietBi from './Component/ThietBi.js';
 import GiaiThuong from './Component/GiaiThuong.js';
+import ThoiGian from './Component/ThoiGian.js';
 
 test('renders learn react link', () => {
   render(<App />);
@@ -45,6 +46,12 @@ test('renders learn react link', () => {
 
 test('renders learn react link', () => {
   render(<GiaiThuong />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link', () => {
+  render(<ThoiGian />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
