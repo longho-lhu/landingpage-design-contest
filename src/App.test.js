@@ -7,6 +7,9 @@ import ThongDiep from './Component/ThongDiep.js';
 import ThietBi from './Component/ThietBi.js';
 import GiaiThuong from './Component/GiaiThuong.js';
 import ThoiGian from './Component/ThoiGian.js';
+import DoiTac from './Component/DoiTac.js';
+import QvA from './Component/Q&A.js';
+import Footer from './Component/Footer';
 
 test('renders learn react link', () => {
   render(<App />);
@@ -52,6 +55,24 @@ test('renders learn react link', () => {
 
 test('renders learn react link', () => {
   render(<ThoiGian />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link', () => {
+  render(<DoiTac />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link', () => {
+  render(<QvA />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link', () => {
+  render(<Footer />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
