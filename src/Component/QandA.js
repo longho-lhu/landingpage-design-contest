@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function QvA() {
+function QandA() {
   return (
     <section id="question">
     <div className="vam_wrap2" id="question_load">
@@ -220,4 +220,4 @@ function QvA() {
 );
 }
 
-export default QvA;
+export default QandA;
