@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
   return (
-    <div classNameName="App">
+    <div classNameName="Header">
     <section id="header1412a1" style={{ height: 0, position: "relative" }}>
     <div className="header1412a1">
       <div className="header1412a1-logo">
