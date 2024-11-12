@@ -1730,3 +1730,118 @@ img {
   color: white;
   padding: 20px 0;
 }
+/* Reset chung */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Phần thân trang */
+body {
+  background-color: #f4f4f4;
+  color: #000;
+  line-height: 2;
+}
+
+/* Phần tiêu đề chính */
+#question {
+  background-image: url(https://aimkt.misacdn.net/admin/template/assets/landing-pages-v2/86c9615c-cc08-4a41-bec4-8a39fae0a2f1.png);
+  padding: 50px;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+#question h3 {
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+
+/* Định dạng tiêu đề */
+.vam_title {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+/* Định dạng câu hỏi */
+.question_div {
+  padding: 16px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng hover trên câu hỏi */
+.question_div:hover {
+  background-color: #b2ebf2;
+}
+
+/* Biểu tượng mũi tên trong câu hỏi */
+.question_div i {
+  font-size: 24px;
+  color: #00a4e3;
+  transition: transform 0.3s ease;
+}
+
+/* Xoay mũi tên khi câu hỏi được mở */
+.question_div.active i {
+  transform: rotate(180deg);
+}
+
+/* Phần câu trả lời */
+.question_load {
+  display: none;
+  padding: 20px 35px;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  transition: all 0.3s linear;
+}
+
+/* Hiển thị câu trả lời khi câu hỏi được mở */
+.question_div.active + .question_load {
+  display: block;
+}
+
+/* Định dạng nội dung câu trả lời */
+.vam_content1 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  width: 90%;
+}
+
+/* Định dạng liên kết trong câu trả lời */
+.vam_content1 a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.vam_content1 a:hover {
+  text-decoration: underline;
+}
+
+/* Định dạng phần chứa các câu hỏi và câu trả lời */
+.vam_wrap2 {
+  padding: 10px;
+}
+
+p,
+h3,
+h1,
+ul {
+  margin: 0;
+}
