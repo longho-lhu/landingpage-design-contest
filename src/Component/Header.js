@@ -102,7 +102,7 @@ function Header() {
         >
           <div>
           <button  className="vam_button1" id="intro_link">
-            <a href="#dieukien" style={{textDecoration: 'none', color: 'white'}}>Tham gia ngay</a>
+            <a href="#dieukien" style={{textDecoration: 'none', color: 'inherit'}}>Tham gia ngay</a>
           </button>
           </div>
           <div style={{ flexDirection: "column", display: "flex"}}>
@@ -114,7 +114,7 @@ function Header() {
               <a onclick="downloadZip()">Xem thể lệ cuộc thi</a>
             </button>
             <button className="vam_button1" id="intro_link">
-              <a target="_blank" rel="noreferrer" href="https://ubtechvietnam.edu.vn/" style={{textDecoration: 'none', color: 'white'}}>
+              <a target="_blank" rel="noreferrer" href="https://ubtechvietnam.edu.vn/" style={{textDecoration: 'none', color: 'inherit'}}>
                 Trang web chính thức
               </a>
             </button>
