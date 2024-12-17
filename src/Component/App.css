@@ -1804,9 +1804,10 @@ body {
 /* Phần câu trả lời */
 .question_load {
   display: none;
-  padding: 20px 35px;
+  padding: 15px 20px;
   background-color: #fafafa;
   margin-bottom: 20px;
+  height: auto;
   border-radius: 25px;
   transition: all 0.3s linear;
 }
@@ -1818,6 +1819,7 @@ body {
 
 /* Định dạng nội dung câu trả lời */
 .vam_content1 {
+  margin: 0;
   font-size: 18px;
   line-height: 1.5;
   color: #333;
