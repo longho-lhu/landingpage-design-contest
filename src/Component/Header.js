@@ -111,7 +111,7 @@ function Header() {
               className="vam_button1"
               id="intro_down"
             >
-              <a href='#dieukiennew'style={{textDecoration: 'none', color: 'inherit'}}>Xem thể lệ cuộc thi</a>
+              <a href='#dieukien'style={{textDecoration: 'none', color: 'inherit'}}>Xem thể lệ cuộc thi</a>
             </button>
             <button className="vam_button1" id="intro_link">
               <a target="_blank" rel="noreferrer" href="https://www.facebook.com/lhub304" style={{textDecoration: 'none', color: 'inherit'}}>
