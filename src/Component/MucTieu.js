@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MucTieu() {
   return (
+    
     <div className="introduce"
-    style={{ position: "relative", paddingBottom: 80 }}
-  >
+    style={{ position: "relative", paddingBottom: 80 }}>
+    
     <div
       className="vam_wrap"
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}

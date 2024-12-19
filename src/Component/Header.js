@@ -111,17 +111,17 @@ function Header() {
               className="vam_button1"
               id="intro_down"
             >
-              <a onclick="downloadZip()">Xem thể lệ cuộc thi</a>
+              <a href='#dieukiennew'style={{textDecoration: 'none', color: 'inherit'}}>Xem thể lệ cuộc thi</a>
             </button>
             <button className="vam_button1" id="intro_link">
-              <a target="_blank" rel="noreferrer" href="https://ubtechvietnam.edu.vn/" style={{textDecoration: 'none', color: 'inherit'}}>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/lhub304" style={{textDecoration: 'none', color: 'inherit'}}>
                 Trang web chính thức
               </a>
             </button>
           </div>
           <button className="vam_button1" id="intro_videosd">
           <i class="bi bi-play-circle"></i>
-            <a> Video chủ đề</a>
+            <a href='https://www.youtube.com/@ubtechvietnam'style={{textDecoration: 'none', color: 'inherit'}}> Video chủ đề</a>
           </button>
         </div>
         <div></div>

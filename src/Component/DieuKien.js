@@ -107,8 +107,9 @@ function DieuKien() {
         <div className="col-xxl-3 col-lg-6 col-12" style={{ width: "25%" }}>
           <div>
             <div className="videodieukien" index={1}>
-              <i className="bi bi-youtube"></i>
-              <p>Video minh họa đề thi chung kết</p>
+            <a href="https://drive.google.com/file/d/1wlqggn8xD0Nayj-7vY0RonP3Oe9aU8CA/preview"  target="_blank"  rel="noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <i className="bi bi-youtube"></i></a>
+              <p >Video minh họa đề thi chung kết</p>
             </div>
             <div id="dieukien1" className="dieukiendiv">
               <div className="dieukien_title-bang">
@@ -152,7 +153,8 @@ function DieuKien() {
         <div className="col-xxl-3 col-lg-6 col-12" style={{ width: "25%" }}>
           <div>
             <div className="videodieukien" index={2}>
-              <i className="bi bi-youtube"></i>
+            <a href="https://drive.google.com/file/d/1vIBg5cQ9KwG_ILw_DncOvsBfSvoeaLYP/preview"  target="_blank"  rel="noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <i className="bi bi-youtube"></i></a>
               <p>Video minh họa đề thi chung kết</p>
             </div>
             <div id="dieukien2" className="dieukiendiv">
@@ -196,7 +198,8 @@ function DieuKien() {
         <div className="col-xxl-3 col-lg-6 col-12" style={{ width: "25%" }}>
           <div>
             <div className="videodieukien" index={3}>
-              <i className="bi bi-youtube"></i>
+            <a href="https://drive.google.com/file/d/1umW2r3VMZOUPFvMkNd3BztCOxeHCE-Tv/preview"  target="_blank"  rel="noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <i className="bi bi-youtube"></i></a>
               <p>Video minh họa đề thi chung kết</p>
             </div>
             <div id="dieukien3" className="dieukiendiv">
@@ -240,7 +243,8 @@ function DieuKien() {
         <div className="col-xxl-3 col-lg-6 col-12" style={{ width: "25%" }}>
           <div>
             <div className="videodieukien" index={4}>
-              <i className="bi bi-youtube"></i>
+            <a href="https://drive.google.com/file/d/147-GxDfnohuCWz6SoqAtiKpBPOsgVYwy/preview"  target="_blank"  rel="noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <i className="bi bi-youtube"></i></a>
               <p>Video minh họa đề thi chung kết</p>
             </div>
             <div id="dieukien4" className="dieukiendiv">
@@ -282,7 +286,8 @@ function DieuKien() {
           </div>
         </div>
         <div className="submitExam">
-          <button id="button_submitExam">Hướng dẫn nộp bài sơ loại</button>
+          <a href='https://drive.google.com/file/d/1GxYlSPxiEetecaA6Ab_rgSxfciumEYFZ/view' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <button id="button_submitExam">Hướng dẫn nộp bài sơ loại</button></a>
         </div>
       </div>
     </div>

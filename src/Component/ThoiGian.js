@@ -62,7 +62,6 @@ function ThoiGian() {
         <iframe
           className="c661412b2-iframe"
           src="https://www.youtube.com/embed/u4gbjq9RiBs"
-          frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen=""
         />
